@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--main colors-->
+    <color name="colorPrimary">#FF4646</color>
+    <color name="colorPrimaryDark">#420909</color>
+    <color name="colorAccent">#FF7474</color>
+    <color name="colorPlaceholder">#808080</color>
+    <color name="colorLike">#CA0000</color>
+    <color name="colorJoin">#75D126</color>
+    <color name="colorLink">#1976D2</color>
+    <color name="colorActive">#FFFFFF</color>
+    <color name="colorInActive">#909090</color>
+
+    <!--light mode colors-->
+    <color name="colorTextLightMode">#000000</color>
+    <color name="colorBackgroundLightMode">#FFFFFF</color>
+    <color name="colorTabsLightMode">#FF4646</color>
+    <color name="colorCardLightMode">#FFFFFF</color>
+    <color name="colorDividerLightMode">#858585</color>
+    <color name="colorPrimaryDark_LightMode">#BDBDBD</color>
+    <color name="colorTextOnPrimary_LightMode">#FFFFFF</color>
+<!--    #312049-->
+    <!--dim mode colors-->
+    <color name="colorTextDimMode">#FFFFFF</color>
+    <color name="colorBackgroundDimMode">#202020</color>
+    <color name="colorTabsDimMode">#FF4646</color>
+    <color name="colorCardDimMode">#222222</color>
+    <color name="colorDividerDimMode">#858585</color>
+    <color name="colorPrimaryDark_DimMode">#420909</color>
+    <color name="colorTextOnPrimary_DimMode">#FFFFFF</color>
+
+    <!--dark mode colors-->
+    <color name="colorTextDarkMode">#FFFFFF</color>
+    <color name="colorBackgroundDarkMode">#222222</color>
+    <color name="colorTabsDarkMode">#292929</color>
+    <color name="colorCardDarkMode">#222222</color>
+    <color name="colorDividerDarkMode">#858585</color>
+    <color name="colorPrimaryDark_DarkMode">#050505</color>
+    <color name="colorTextOnPrimary_DarkMode">#FFFFFF</color>
+</resources>

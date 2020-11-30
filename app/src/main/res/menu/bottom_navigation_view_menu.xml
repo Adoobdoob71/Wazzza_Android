@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/home" android:id="@+id/home_screen" android:icon="@drawable/group_icon" />
+    <item android:title="@string/search" android:id="@+id/search_screen" android:icon="@drawable/search_icon" />
+    <item android:title="@string/contacts" android:id="@+id/contacts_screen" android:icon="@drawable/message_icon" />
+    <item android:title="@string/profile" android:id="@+id/profile_screen" android:icon="@drawable/person_icon" />
+</menu>

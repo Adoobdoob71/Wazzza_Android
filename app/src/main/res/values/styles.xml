@@ -1,0 +1,41 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppThemeLight" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_LightMode</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorText">@color/colorTextLightMode</item>
+        <item name="colorBackground">@color/colorBackgroundLightMode</item>
+        <item name="colorDivider">@color/colorDividerLightMode</item>
+        <item name="colorCard">@color/colorCardLightMode</item>
+        <item name="colorTabs">@color/colorTabsLightMode</item>
+        <item name="colorTextOnPrimary">@color/colorTextOnPrimary_LightMode</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark_DimMode</item>
+    </style>
+
+    <style name="AppThemeDark" parent="Theme.MaterialComponents.NoActionBar.Bridge">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_DarkMode</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorText">@color/colorTextDarkMode</item>
+        <item name="colorBackground">@color/colorBackgroundDarkMode</item>
+        <item name="colorDivider">@color/colorDividerDarkMode</item>
+        <item name="colorCard">@color/colorCardDarkMode</item>
+        <item name="colorTabs">@color/colorTabsDarkMode</item>
+        <item name="colorTextOnPrimary">@color/colorTextOnPrimary_DarkMode</item>
+    </style>
+
+    <style name="AppThemeDim" parent="Theme.MaterialComponents.NoActionBar.Bridge">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_DimMode</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorText">@color/colorTextDimMode</item>
+        <item name="colorBackground">@color/colorBackgroundDimMode</item>
+        <item name="colorDivider">@color/colorDividerDimMode</item>
+        <item name="colorCard">@color/colorCardDimMode</item>
+        <item name="colorTabs">@color/colorTabsDimMode</item>
+        <item name="colorTextOnPrimary">@color/colorTextOnPrimary_DimMode</item>
+    </style>
+
+</resources>

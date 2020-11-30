@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Wazzza</string>
+    <string name="main_activity_header_title">Wazzza</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="profile">Profile</string>
+    <string name="contacts">Contacts</string>
+    <string name="settings">Settings</string>
+    <string name="theme_title">Change Theme</string>
+    <string name="theme_sub_title">Change The App\'s Theme</string>
+    <string name="search_something">Search something…</string>
+    <string name="join_event">Join event</string>
+    <string name="participants">Participants</string>
+    <string name="profile_sub_title">Change Profile Settings</string>
+    <string name="profile_edit">Edit Profile</string>
+    <string name="nickname">Nickname</string>
+    <string name="email">Email</string>
+    <string name="description">Description</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="submit">Submit</string>
+    <string-array name="themes">
+        <item>Light</item>
+        <item>Dim</item>
+        <item>Dark</item>
+    </string-array>
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "354628998804",
+    "firebase_url": "https://wazza-151c5.firebaseio.com",
+    "project_id": "wazza-151c5",
+    "storage_bucket": "wazza-151c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354628998804:android:9a91e4bbc5af7db1834681",
+        "android_client_info": {
+          "package_name": "com.wazzza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354628998804-7qjlsngsr7ktff8dgtv95ichod2b14b3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWd1CHMiVx8nmol3IUOMaSf8JiLDY4Da0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354628998804-7qjlsngsr7ktff8dgtv95ichod2b14b3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
