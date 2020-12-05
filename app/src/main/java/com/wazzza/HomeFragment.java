@@ -1,5 +1,6 @@
 package com.wazzza;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +8,12 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CompoundButton;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.Toast;
+
+import com.google.android.material.checkbox.MaterialCheckBox;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -55,10 +62,37 @@ public class HomeFragment extends Fragment {
         }
     }
 
+    ImageView profilePicture;
+    MaterialCheckBox sortByButton;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false);
+        View view = inflater.inflate(R.layout.fragment_home, container, false);
+        InitializeVariables(view);
+        HandleClickListeners();
+        return view;
+    }
+
+    public void InitializeVariables(View view){
+        profilePicture = view.findViewById(R.id.fragment_home_profile_picture);
+        sortByButton = view.findViewById(R.id.fragment_home_recent_popular_toggle_button);
+    }
+
+    public void HandleClickListeners(){
+        profilePicture.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View view) {
+                Intent intent = new Intent(getContext(), RegisterActivity.class);
+                startActivity(intent);
+                getActivity().overridePendingTransition(R.anim.slide_from_bottom, R.anim.slide_from_top);
+                return true;
+            }
+        });
+        sortByButton.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                Toast.makeText(getContext(), b ? "Sorting by hot" : "Sorting by recent", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 }

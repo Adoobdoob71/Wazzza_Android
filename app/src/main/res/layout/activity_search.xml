@@ -50,7 +50,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/close_icon"
+                android:id="@+id/activity_search_erase_button"
                 android:tint="@color/colorPrimary"
+                android:onClick="HandleButtons"
                 android:background="?attr/selectableItemBackgroundBorderless"/>
         </LinearLayout>
     </LinearLayout>

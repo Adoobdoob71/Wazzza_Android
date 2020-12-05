@@ -9,6 +9,6 @@
         </shape>
     </item>
     <item>
-        <ripple android:color="@color/colorPrimary" android:radius="6dp" />
+        <ripple android:color="@color/colorPrimary" />
     </item>
 </layer-list>

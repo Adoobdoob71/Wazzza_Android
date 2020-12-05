@@ -19,8 +19,7 @@
             android:id="@+id/wazzus_contact_item_profile_picture"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:scaleType="centerCrop"
-            android:src="@drawable/picture" />
+            android:scaleType="centerCrop" />
     </androidx.cardview.widget.CardView>
     <LinearLayout
         android:layout_width="0dp"
@@ -35,7 +34,6 @@
             android:id="@+id/wazzus_contact_item_nickname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="DoritoWizard"
             android:textColor="?attr/colorText"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -46,7 +44,6 @@
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:maxLines="1"
-            android:text="I like going on trips with my friends and family, if you do too then feel free to drop a follow!"
             android:textColor="@color/colorPlaceholder"
             android:textSize="14sp" />
     </LinearLayout>
